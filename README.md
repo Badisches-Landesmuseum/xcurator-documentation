@@ -251,7 +251,7 @@ After the data is enriched by the extraction services, the extraction services c
 - Color Extraction: Identify Background and Foreground Color Palette in a given Image (used for search).
 - Embedding Extraction: image-search is extracting openCLIP empeddings of a input image. (used for search).
 - Topic Modelling: titles and descriptions of the records are used for building a topic-model (20 topics, used for search).
-- Entity Linking: titles and descriptions are used to perform entity recognition and entity linking with wikidata (used for highlighting and search).
+- Entity Linking: titles and descriptions are used to perform entity recognition and entity linking with wikidata (used for highlighting and search). The service uses the following [trained model](https://github.com/explosion/spacy-models/releases/tag/de_core_news_lg-3.4.0)
 
 ### Requirements
 
